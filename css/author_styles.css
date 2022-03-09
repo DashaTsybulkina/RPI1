@@ -1,0 +1,528 @@
+body {
+	font-family: "Libre Franklin", Sans-serif;
+	font-size : 16px;
+	margin: 0;
+}
+
+.header {
+	width: 100%;
+	position:absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-size: cover; 
+}
+
+.container_menu {
+	background-color: #ffffff;
+    box-shadow: 0px 2px 12px 0px rgb(136 136 136 / 26%);
+    margin: 5px 10px 0px 10px;
+    padding: 10px;
+}
+
+.bg_menu{
+	height: 40px;
+	background-color: #000;
+	position: absolute;
+}
+
+.container {
+    padding: 10px;
+}
+
+.header_inner {
+    margin: 5px 200px 0px 200px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header_logo {
+	font-size: 50px;
+	font-weight: 700;
+	color : #9ba0dfef;
+	text-decoration: none;
+    font-family: 'Amatic SC', cursive;
+}
+
+.menu {
+	text-transform : uppercase;
+	list-style: none;
+	display: flex;
+	align-items: center;
+}
+
+.hometext{
+	padding: 30px;
+}
+
+.menu li:hover ul {
+	display:block;
+	position: absolute;
+}
+
+.menu li.selected {
+	background-color: #9ba0dfef;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 10px;
+	color : #bed5f0;
+	position: relative; 
+	height: 75px;
+}
+
+.nav_link {
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 10px;
+	color : #bed5f0;
+	position: relative; 
+}
+
+
+.nav_link:hover {
+	color : #4073ff ;
+
+}
+
+.hometext:hover {
+	color : #4073ff ;
+
+}
+
+.intro {
+	margin: 0%;
+	display : flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+	height: 670px;
+	background: url("../images/intro9.jpg") center no-repeat ;
+	-webkit-background-size: cover; 
+	background-size: cover; 
+}
+
+.intro_inner {
+	text-align: inherit;
+    margin-left: 50%;
+}
+
+.intro_title {
+    font-family: 'Caveat', cursive; 
+    font-size: 60px;
+    font-weight: 300;
+    line-height: 80.4px;
+    letter-spacing: 0px;
+	margin-left: 50px;
+}
+
+.intro_title_h4 {
+    font-family: "Libre Franklin", Sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 34.2px;
+    letter-spacing: 0px;
+	margin-right: 70px;
+}
+
+.button{
+	width: 150px;
+	height: 40px;
+	color: rgb(0, 4, 8);
+	background-color: #40587300;
+	font-weight: 200px;
+	border-color: #feffff13;
+	margin-left: 200px;
+}
+
+.button a:focus,
+.button:hover{
+    border-color: #bcc5e2;
+}
+
+.section{
+	padding : 40px 0;
+	background-color: #f4eeee;
+	color: #232f3c;
+	height: 500px;
+}
+
+.section_header {
+	width: 650px;
+	margin: 0 0 20px -20px;
+	text-align: left;
+}
+
+.photo{
+	margin-left: -65px;
+}
+
+.section_suptitle {
+	font-size: 38px;
+	font-family: 'Caveat', cursive;
+}
+
+.section_text {
+	font-size: 23px;
+	font-family: 'Caveat', cursive;
+}
+
+.image{
+	width: 350px;
+}
+
+.info{
+	display: flex;
+	align-content: stretch;
+	justify-content: space-around;
+}
+
+.opros{
+	background-color: #dae7e7;
+	color : #000000;
+	display:flex;
+	justify-content: space-between;
+}
+
+.opros_header {
+	width: 100%;
+	max-width: 950px;
+	margin: 0 auto 10px;
+	text-align: center;
+	font-size: 40px;
+}
+
+.opros_title {
+	font-family:  "Libre Franklin", Sans-serif;
+	font-size: 35px;
+	font-weight: 700;
+	line-height: 1;
+}
+
+.opros_suptitle {
+	margin-bottom: -10px;
+	font-size: 45px;
+	text-transform: uppercase;
+	font-family:  "Libre Franklin", Sans-serif;
+}
+
+.opros_question{
+	font-size: 30px;
+	border: 3px dotted #2a69bb;
+	text-align: center; 
+	width: 45%;
+	height: 420px;
+	padding-left: 15px;
+	float: right;
+}
+
+.opros_btn{
+	background-color : #d9e9facb;
+	color: #363B40;
+	font-size: 20px;
+	font-family: "Libre Franklin", Sans-serif;
+}
+
+.opros_btn:hover{
+	background-color : #375f8d;
+	color: #c1d0df;
+	font-size: 22px;
+}
+
+.opros_rad{
+	transition: color .2s linear;
+	font-size: 25px;
+}
+
+.opros_note {
+	font-size: 25px;
+	border: 3px dotted #2a69bb;
+	text-align: left;
+	width: 50%;
+	padding-left: 15px;
+	display: inline-block;
+}
+
+.opros_item {
+	position: relative;
+}
+
+.opros_item:hover .opros_quote {
+	opacity : 1;
+	background-color : #e9f2fca4 ;
+}
+
+.opros_imgs {
+	display: inline-flex;
+	justify-content: space-between;
+	width: 760px;
+	padding-top: 1%;
+}
+
+.opros_img {
+	border: 3px dotted #2a69bb;
+	width: 380px;
+	height:260px;
+}
+
+.opros_quote{
+	width: 385px;
+	height:265px;
+	font-size: 14px;
+	font-family: 'Caveat', cursive; 
+	color: #333;
+	font-weight: 700;
+	opacity : 0;
+	position: absolute;
+	top:0;
+	left:0;
+	z-index: 2;
+	transition: opacity .2s linear;
+}
+
+.reviev{
+	padding : 20px 0;
+	background-color: #fffefe;
+	color: #232f3c;
+	height: 600px;
+}
+
+.reviev_suptitle{
+	font-size: 40px;
+	font-family: "Libre Franklin", Sans-serif;
+	font-weight: 200;
+}
+
+.reviev_header{
+	width: 100%;
+	max-width: 950px;
+	margin: -10px auto 20px;
+	text-align: center;
+}
+
+.about {
+	display:flex;
+	justify-content: space-evenly;
+}
+
+.about_item {
+	position: relative;
+	padding-left: 10px;
+	padding-top: 20px;
+}
+
+.about_item:hover{
+background-color: #e0ecfdc4;
+}
+
+.about_img{
+	margin-left: 100px;
+}
+
+.about_text{
+	align-self: center;
+    text-align: center;
+    color: #888888;
+    font-family: "Libre Franklin", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30.6px;
+    letter-spacing: 0px;
+    width: 384px;
+    background-color: rgba(2, 1, 1, 0);
+    padding: 0px 0px 0px 0px;
+    margin: 2px 0px 0px 0px;
+}
+
+.footer {
+	background-color: rgb(85 106 102);
+	padding-top : 65px;
+}
+
+.footer_inner {
+	padding-bottom: 65PX;
+	display : flex;
+	justify-content: space-between;
+}
+
+.footer_logo {
+	margin-bottom: 30px;
+	font-size: 46PX;
+	font-weight: 700;
+	color : #D9ECFF;
+}
+
+.footer_col--first{
+
+	width: 40%;
+}
+
+.footer_col--second{
+
+	width: 29%;
+}
+
+.footer_col--third{
+
+	width: 22%;
+}
+
+.footer_text {
+	font-size: 18px;
+	color : #D9ECFF;
+	margin-bottom: 30px;
+}
+
+.footer_social-header{
+	padding-bottom: 15px;
+	font-size : 16px;
+	color : #D9ECFF;
+	border-bottom: 1px solid #D9ECFF;
+}
+
+.footer_social-content{
+	padding-top: 15px;
+	font-size: 18px;
+	color: #D9ECFF;
+	font-style: italic;	
+}
+
+.social_img{
+	width: 20px;
+	padding-left: 5px;
+}
+
+.subscribe {
+	width: 100%;
+	max-width: 380px;
+	display: flex;
+}
+
+.subscribe_input{
+	height: 20px;
+	width: 60%;
+	padding: 12px;
+	background:#fff;
+	border: 1px solid #363B40;
+	border-right: 0;
+	font-family: 'Caveat', cursive;
+	margin-top: 15px;
+	font-size: 16px;
+	color: #000;
+	font-style: italic;
+	font-weight: 300;
+	line-height: 1.1;
+}
+
+.subscribe_input::placeholder{
+	color : #C3D4E6 ;
+}
+
+.subscribe_input:focus {
+	outline: 0;
+	border-color : #3d7f88;
+}
+
+.subscribe_btn{
+	width: 40%;
+	height: 45px;
+	padding: 12px 20px;
+	line-height: 1.1;
+	background-color: #6ecad6;
+	border: 0;
+	cursor: pointer; 
+	margin-top: 15px;
+	font-family: 'Caveat', cursive;
+	font-size: 14px;
+	font-weight: 700;
+	color : #fff;
+	text-transform: uppercase;
+	transition: background .2s linear, color .2s linear;
+}
+
+.subscribe_btn:hover{
+	background-color: #ABEBFF;
+	color : #000 ;
+}
+
+.footer_title{
+	text-transform: uppercase;
+	font-size: 17px;
+	color : #D9ECFF ;
+	margin: 30px 0 ;
+}
+
+.news_item {
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.news_img {
+	width: 120px;
+	height: 80px;
+}
+
+.news_content{
+	padding-left: 20PX;
+	display: block;
+	font-size: 13PX;
+	text-transform: uppercase;
+	color :#ABEBFF;
+	line-height: 1.4;
+	text-decoration: none;
+}
+
+.news_content:hover {
+	text-decoration: underline;
+}
+
+.instagram {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.intstagram_item {
+	flex : 1 1 0;
+	width: 33.333333333%;
+}
+
+.copyright{
+	padding: 20px 0;
+	border-top: 1px solid #D9ECFF;
+	font-size: 16px;
+	color : #FFF;
+	text-align: center; 
+}
+
+.image_book{
+	width: 275px;
+	padding-left: 100px;
+}
+
+.button_add{
+	width: 150px;
+	height: 45px;
+	color: rgb(255, 255, 255);
+	background-color: #558dccde;
+	font-weight: 200px;
+	border-color: #094b4b13;
+}
+
+.button_add a:focus,
+.button_add:hover{
+    border-color: #bcc5e2;
+	background-color: rgb(113, 133, 150);
+}
+
+.price{
+	font-size: 40px;
+	font-family: "Libre Franklin", Sans-serif;
+	font-weight: 400;
+}
+
+.video{
+	margin-top: 100px;
+	width: 100%;
+	max-width: 500px;
+}
