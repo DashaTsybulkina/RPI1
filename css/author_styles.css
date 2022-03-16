@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 body {
-	font-family: "Libre Franklin", Sans-serif;
+	font-family: Lobster;
 	font-size : 16px;
 	margin: 0;
 }
@@ -42,7 +44,7 @@ body {
 	font-weight: 700;
 	color : #9ba0dfef;
 	text-decoration: none;
-    font-family: 'Amatic SC', cursive;
+    font-family: Lobster, cursive;
 }
 
 .menu {
@@ -108,7 +110,7 @@ body {
 }
 
 .intro_title {
-    font-family: 'Caveat', cursive; 
+    font-family: Lobster;
     font-size: 60px;
     font-weight: 300;
     line-height: 80.4px;
@@ -117,7 +119,7 @@ body {
 }
 
 .intro_title_h4 {
-    font-family: "Libre Franklin", Sans-serif;
+    font-family: Lobster;
     font-size: 19px;
     font-weight: 400;
     line-height: 34.2px;
@@ -133,6 +135,7 @@ body {
 	font-weight: 200px;
 	border-color: #feffff13;
 	margin-left: 200px;
+	font-family: Lobster;
 }
 
 .button a:focus,
@@ -159,12 +162,13 @@ body {
 
 .section_suptitle {
 	font-size: 38px;
-	font-family: 'Caveat', cursive;
+	font-family: Lobster, cursive;
 }
 
 .section_text {
 	font-size: 23px;
-	font-family: 'Caveat', cursive;
+	font-family: Lobster, cursive;
+	font-weight: 100;
 }
 
 .image{
@@ -193,17 +197,19 @@ body {
 }
 
 .opros_title {
-	font-family:  "Libre Franklin", Sans-serif;
+	font-family: Lobster;
 	font-size: 35px;
-	font-weight: 700;
+	font-weight: 100;
 	line-height: 1;
 }
+
 
 .opros_suptitle {
 	margin-bottom: -10px;
 	font-size: 45px;
+	font-weight: 100;
 	text-transform: uppercase;
-	font-family:  "Libre Franklin", Sans-serif;
+	font-family: Lobster;
 }
 
 .opros_question{
@@ -220,7 +226,7 @@ body {
 	background-color : #d9e9facb;
 	color: #363B40;
 	font-size: 20px;
-	font-family: "Libre Franklin", Sans-serif;
+	font-family: Lobster;
 }
 
 .opros_btn:hover{
@@ -270,7 +276,7 @@ body {
 	width: 385px;
 	height:265px;
 	font-size: 14px;
-	font-family: 'Caveat', cursive; 
+	font-family: Lobster, cursive; 
 	color: #333;
 	font-weight: 700;
 	opacity : 0;
@@ -290,7 +296,7 @@ body {
 
 .reviev_suptitle{
 	font-size: 40px;
-	font-family: "Libre Franklin", Sans-serif;
+	font-family: Lobster;
 	font-weight: 200;
 }
 
@@ -324,7 +330,7 @@ background-color: #e0ecfdc4;
 	align-self: center;
     text-align: center;
     color: #888888;
-    font-family: "Libre Franklin", Sans-serif;
+    font-family: Lobster;
     font-size: 18px;
     font-weight: 400;
     line-height: 30.6px;
@@ -344,10 +350,12 @@ background-color: #e0ecfdc4;
 	padding-bottom: 65PX;
 	display : flex;
 	justify-content: space-between;
+	font-weight: 100;
 }
 
 .footer_logo {
 	margin-bottom: 30px;
+	font-family: Lobster;
 	font-size: 46PX;
 	font-weight: 700;
 	color : #D9ECFF;
@@ -372,6 +380,7 @@ background-color: #e0ecfdc4;
 	font-size: 18px;
 	color : #D9ECFF;
 	margin-bottom: 30px;
+	font-family: Lobster;
 }
 
 .footer_social-header{
@@ -379,13 +388,15 @@ background-color: #e0ecfdc4;
 	font-size : 16px;
 	color : #D9ECFF;
 	border-bottom: 1px solid #D9ECFF;
+	font-family: Lobster;
 }
 
 .footer_social-content{
 	padding-top: 15px;
 	font-size: 18px;
 	color: #D9ECFF;
-	font-style: italic;	
+	font-family: Lobster;
+
 }
 
 .social_img{
@@ -437,12 +448,11 @@ background-color: #e0ecfdc4;
 	border: 0;
 	cursor: pointer; 
 	margin-top: 15px;
-	font-family: 'Caveat', cursive;
+	font-family: Lobster, cursive;
 	font-size: 14px;
 	font-weight: 700;
 	color : #fff;
 	text-transform: uppercase;
-	transition: background .2s linear, color .2s linear;
 }
 
 .subscribe_btn:hover{
@@ -515,6 +525,8 @@ background-color: #e0ecfdc4;
 	background-color: #558dccde;
 	font-weight: 200px;
 	border-color: #094b4b13;
+	font-family: Lobster;
+	font-weight: 10;
 }
 
 .button_add a:focus,
@@ -525,8 +537,8 @@ background-color: #e0ecfdc4;
 
 .price{
 	font-size: 40px;
-	font-family: "Libre Franklin", Sans-serif;
-	font-weight: 400;
+	font-family: Lobster;
+	font-weight: 100;
 }
 
 .video{
@@ -534,4 +546,5 @@ background-color: #e0ecfdc4;
 	width: 100%;
 	max-width: 500px;
 }
+
 
