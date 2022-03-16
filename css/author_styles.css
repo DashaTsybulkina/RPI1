@@ -259,6 +259,7 @@ body {
 	padding-top: 1%;
 }
 
+
 .opros_img {
 	border: 3px dotted #2a69bb;
 	width: 380px;
@@ -392,6 +393,10 @@ background-color: #e0ecfdc4;
 	padding-left: 5px;
 }
 
+.social_img:hover{
+	opacity: 0.5;
+}
+
 .subscribe {
 	width: 100%;
 	max-width: 380px;
@@ -482,9 +487,12 @@ background-color: #e0ecfdc4;
 	flex-wrap: wrap;
 }
 
-.intstagram_item {
-	flex : 1 1 0;
+.instagram_item {
 	width: 33.333333333%;
+}
+
+.instagram_item:hover {
+	opacity: 0.5;
 }
 
 .copyright{
@@ -526,3 +534,4 @@ background-color: #e0ecfdc4;
 	width: 100%;
 	max-width: 500px;
 }
+
